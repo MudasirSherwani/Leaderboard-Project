@@ -11,4 +11,4 @@ const ShowScoreList = (elements) => {
   ScoreList.innerHTML = ListElements;
 };
 
-export default ShowScoreList;
+module.exports =  ShowScoreList;
