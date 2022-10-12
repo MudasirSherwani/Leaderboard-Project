@@ -5,7 +5,7 @@ I develop a first working version of the app following a wireframe, but without 
 
 ## Website Live Demo Link
 
-- [Webpack Testing Project](https://mudasirsherwani.github.io/Leaderboard-Project/)
+- [Leaderboard Score List](https://mudasirsherwani.github.io/Leaderboard-Project/dist)
 
 ## Built With
 
