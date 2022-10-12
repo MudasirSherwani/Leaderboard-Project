@@ -1,0 +1,86 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.project-heading {
+  font-size: 44px;
+  margin: 5px;
+}
+
+.content {
+  width: 97%;
+  height: 70%;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.recent-score {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.recent-score-head {
+  display: flex;
+  height: 44px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.score-list {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 5px 4px 5px #b5b0b0;
+}
+
+.list-name {
+  padding: 5px;
+  margin: 5px;
+}
+
+.recent-score-head > button {
+  display: flex;
+  justify-content: flex-end;
+  height: 33px;
+  align-items: center;
+  text-align: center;
+  margin-right: 11px;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 3px 2px 2px #b5b0b0;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 50px;
+}
+
+.add-score > input {
+  margin: 14px;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 5px 4px 5px #b5b0b0;
+}
+
+.add-score .btn-submit {
+  width: 66px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 3px 2px 2px #b5b0b0;
+}
+
+.submit-div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 14px;
+  height: 36px;
+}
