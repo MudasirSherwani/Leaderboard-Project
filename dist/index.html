@@ -16,7 +16,7 @@
   <div class="recent-score">
     <div class="recent-score-head">
       <h2>Recent Score</h2>
-      <button class="btn-refresh" type="button">Refresh</button>
+      <button id="btn-refresh" class="btn-refresh" type="button">Refresh</button>
     </div>
     <div class="score-list" id="score-list-id">
       <!-- Leaderboard score list here -->
@@ -24,12 +24,15 @@
   </div>
   <div class="add-score">
     <h2>Add your score</h2>
-    <input type="text">
-    <input type="text">
+    <input id="player-name" type="text">
+    <input id="scores" type="text">
     <div class="submit-div">
-      <input class="btn-submit" type="submit" value="Submit">
+      <input class="btn-submit" id="submit" type="submit" value="Submit">
     </div>
-   
+      <div class="status-div">
+        <p id="status" class="status">Submit status</p>
+      </div>
+
   </div>
   </section>
 
