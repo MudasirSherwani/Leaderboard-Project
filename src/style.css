@@ -4,7 +4,7 @@ body {
 
 .project-heading {
   font-size: 44px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .content {
@@ -17,7 +17,7 @@ body {
 
 .recent-score {
   display: flex;
-  width: 50%;
+  width: 40%;
   flex-direction: column;
   padding: 50px;
 }
@@ -32,15 +32,39 @@ body {
 }
 
 .score-list {
-  padding: 10px;
+  overflow: scroll;
+  height: 45vh;
+  padding-top: 40px;
   border: 1px solid black;
   border-radius: 3px;
   box-shadow: 3px 5px 4px 5px #b5b0b0;
 }
 
+/* .list-elements {
+  background-color: rgb(224, 216, 216);
+  padding: 1px;
+  margin: 1px;
+} */
+
+.list-section {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #b5b0b0;
+}
+
+.list-section:nth-child(even) {
+  background-color: rgba(187, 169, 171, 0.549);
+}
+
 .list-name {
-  padding: 5px;
-  margin: 5px;
+  margin-left: 15px;
+}
+
+.list-elements {
+  margin: 1px;
 }
 
 .recent-score-head > button {
@@ -58,7 +82,7 @@ body {
 .add-score {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   padding: 50px;
 }
 
@@ -68,6 +92,9 @@ body {
   border: 2px solid black;
   border-radius: 3px;
   box-shadow: 3px 5px 4px 5px #b5b0b0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
 }
 
 .add-score .btn-submit {
@@ -93,4 +120,14 @@ body {
   display: flex;
   margin: 14px;
   height: 36px;
+}
+
+.footer-area {
+  background-color: #b5b0b0;
+  height: 40px;
+}
+
+.footer-area > p {
+  text-align: center;
+  padding: 10px;
 }
