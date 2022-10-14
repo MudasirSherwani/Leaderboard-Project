@@ -78,9 +78,19 @@ body {
   box-shadow: 2px 3px 2px 2px #b5b0b0;
 }
 
+.status {
+  color: green;
+}
+
 .submit-div {
   display: flex;
   flex-direction: row-reverse;
+  margin: 14px;
+  height: 36px;
+}
+
+.status-div {
+  display: flex;
   margin: 14px;
   height: 36px;
 }
