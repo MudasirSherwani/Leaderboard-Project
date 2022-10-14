@@ -1,6 +1,6 @@
-# Leaderboard: hit the API
+# Leaderboard
 
-> In this repository I have set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
+> In this repository I have set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, Send and receive data from an API. notably modules.
 I develop a first working version of the app following a wireframe, but without styling - just focus on functionality.
 
 ## Website Live Demo Link
@@ -14,6 +14,12 @@ I develop a first working version of the app following a wireframe, but without 
 - Javascript ES6
 - Javascript API
 
+## Working Module
+
+- Setup Project Done
+- Hit the API Done
+- Final Touches Done
+
 ## Extensions / Plugins
 
 Linters Installed
@@ -25,15 +31,14 @@ Linters Installed
 -Webpack
 -Webpack Server
 
-
-
 ## Getting Started
-- Open GitHub URL of repositry.
-- Download Code repo in zip.
-- Extract and open repo folder into visual studio code or any other Text Editor Software.
-- GitHub Repositry URL: https://github.com/MudasirSherwani/Leaderboard-Project
-  To get a local copy up and running follow these simple example steps.
 
+- GitHub Repositry URL: https://github.com/MudasirSherwani/Leaderboard-Project
+- Clone Above GitHub URL of repositry.
+- CD into the required Directory
+- Install npm Package with the command : npm install
+- Make Sure Installation of Linters, Webpack, and Webpack Server.
+- Start webpack server with the command : npm start
 
 ### Prerequisites
 - Visual Studio
