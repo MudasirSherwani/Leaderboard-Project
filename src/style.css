@@ -74,6 +74,10 @@ body {
   box-shadow: 2px 3px 2px 2px #b5b0b0;
 }
 
+.btn-refresh {
+  cursor: pointer;
+}
+
 .add-score {
   display: flex;
   flex-direction: column;
@@ -98,6 +102,7 @@ body {
   border: 2px solid black;
   border-radius: 3px;
   box-shadow: 2px 3px 2px 2px #b5b0b0;
+  cursor: pointer;
 }
 
 .status {
